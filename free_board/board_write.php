@@ -30,7 +30,8 @@
                     </div>
                     <div class="wi_line"></div>
                     <div id="in_name">
-                        <input name="name" type="text" value=<?php echo $_SESSION['ID'] ?> readonly="readonly"></input>
+                        <h3 name="name"><?php echo $_SESSION['ID'] ?></h3>
+												<!--<h3 name="name" type="text" value=<?php //echo $_SESSION['ID'] ?> readonly="readonly"></h3>-->
                     </div>
                     <div class="wi_line"></div>
                     <div id="in_content">
